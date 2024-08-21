@@ -2,22 +2,12 @@ $(call inherit-product-if-exists, vendor/aw/homlet/hardware/input/multi_ir/multi
 #app
 PRODUCT_PACKAGES += \
     privapp-vendor-permissions \
-    TvdVideo \
-    TvdFileManager \
     WebScreensaver \
     ImageParser \
     DragonBox \
     DragonAgingTV \
-    MiracastReceiver \
-    AwTvProvision \
     provision-permissions \
-    DragonSN  \
-    GalleryTV
-
-PRODUCT_PACKAGES += \
-    LiveTv \
-    TvProvider \
-    tv_input.default
+    DragonSN
 
 #service
 PRODUCT_PACKAGES += \
