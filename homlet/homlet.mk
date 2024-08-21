@@ -1,19 +1,15 @@
 $(call inherit-product-if-exists, vendor/aw/homlet/hardware/input/multi_ir/multiir.mk)
 #app
 PRODUCT_PACKAGES += \
-    TvSettings \
     privapp-vendor-permissions \
-    TvLauncher \
     TvdVideo \
     TvdFileManager \
     WebScreensaver \
-    Test_AD \
     ImageParser \
     DragonBox \
     DragonAgingTV \
     MiracastReceiver \
     AwTvProvision \
-    SettingsAssist \
     provision-permissions \
     DragonSN  \
     GalleryTV
