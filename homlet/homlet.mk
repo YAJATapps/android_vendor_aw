@@ -7,7 +7,9 @@ PRODUCT_PACKAGES += \
     DragonBox \
     DragonAgingTV \
     provision-permissions \
-    DragonSN
+    DragonSN \
+    FireFox \
+#    WiringOP
 
 #service
 PRODUCT_PACKAGES += \
